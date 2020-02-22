@@ -1,6 +1,6 @@
-const a = "100";
-const b = 10;
-// console.log(a*b)
-
-console.log(parseInt(a)+b);
-console.log(+a+b)
+let sl = 1;
+let x = 0;
+do{
+    x = Math.floor(Math.random()*100);
+    console.log("Lan thu " + sl++ +" "+ x);
+}while(x!=93)
